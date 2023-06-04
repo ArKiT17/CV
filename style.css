@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+p, h1, h2, li {
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+p, li {
+    font-size: 18px;
+}
+
+hr {
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+
+a {
+    color: white;
+}
+
+.photo img {
+    width: 94%;
+    height: 94%;
+    border-radius: 50%;
+    border-color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: white;
+    position: relative;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-bottom: 120px;
+}
+
+.back {
+    background-color: #3e3e3e;
+    display: flex;
+}
+
+.top-green {
+    height: 130px;
+    width: 100%;
+    background-color: rgba(0, 115, 6, 0.7);
+    position: absolute;
+    transform: translate(20%);
+}
+
+.left, .right {
+
+    box-sizing: border-box;
+}
+
+.left {
+    width: 600px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    background-color: white;
+    padding: 30px;
+}
+
+.main h1 {
+    text-align: center;
+    transform: translate(-10%);
+    margin-bottom: 70px;
+}
+
+.right div {
+    margin-left: 10px;
+}
+
+.about {
+    padding: 5px;
+}
+
+.qualifications {
+    padding: 5px;
+}
+
+.qualifications div {
+    display: flex;
+}
+
+.qualifications div ul li {
+    margin-bottom: 10px;
+}
+
+.qualifications h2 {
+    margin-bottom: 5px;
+}
+
+.education .item {
+    margin-bottom: 30px;
+}
+
+.education .item p {
+    margin: 4px;
+}
+
+.left-item {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-item#last {
+    margin-bottom: 0;
+}
+
+.logo {
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 22px;
+    margin: 0;
+}
+
+.information {
+    color: white;
+}
+
+.left hr {
+    height: 2px;
+    width: 80%;
+    background-color: white;
+    border: none;
+    margin: 20px auto;
+}
+
+.left h1 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 22px;
+}
+
+.websites {
+    padding: 0 10%;
+}
+
+.websites ul {
+    padding-left: 15px;
+    list-style: none;
+}
+
+.websites ul li::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: -15px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.websites ul li {
+    position: relative;
+}
+
+.languages {
+    padding: 0 10%;
+}
+
+.languages h2, .languages p {
+    font-size: 18px;
+    color: white;
+    margin: 0;
+}
+
+.language-item {
+    margin-bottom: 20px;
+}
+
+.language-item .name {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block {
+    width: 100%;
+    height: 10px;
+    display: flex;
+    margin: 7px 0;
+}
+
+.block-item {
+    width: 100%;
+    height: 100%;
+    margin-right: 5px;
+    background-color: white;
+}
+
+.block-item:last-child {
+    margin-right: 0;
+}
+
+.bg-green {
+    background-color: green;
+}
